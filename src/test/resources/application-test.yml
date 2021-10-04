@@ -1,0 +1,11 @@
+
+app:
+  data:
+    users[0]:
+      userName: test
+      password: test12341
+
+spring:
+  data:
+    mongodb:
+      database: recipes-test

@@ -1,0 +1,21 @@
+server:
+  servlet:
+    context-path: /api
+
+spring:
+  data:
+    mongodb:
+      database: recipes
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+app:
+  jwt:
+    secret: recipesBackendSecretKey
+    expiration-ms: 86400000
+  data:
+    users[0]:
+      userName: bob
+      password: 12341
