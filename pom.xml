@@ -11,8 +11,8 @@
     <groupId>com.snjv</groupId>
     <artifactId>recipes-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>recipes-backend</name>
-    <description>recipes-backend</description>
+    <name>recipes-api</name>
+    <description>recipes-backend APIs</description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

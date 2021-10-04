@@ -1,4 +1,4 @@
-#Recipe Backend
+#Recipe API
 
 ## Requirements
 
@@ -38,5 +38,10 @@ mvn spring-boot:build-image
 Then to start the container, we can simply run:
 
 ```shell
-docker run -it -p8080:8080 recipes-backend:0.0.1-SNAPSHOT
+docker run -it -p8080:8080 recipes-api:0.0.1-SNAPSHOT
 ```
+
+## API details and testing 
+
+you can open swagger documentation page:
+http://localhost:8080/api/swagger-ui.html
